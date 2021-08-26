@@ -1,7 +1,7 @@
 import './app.scss';
-import React, { FC, useState } from 'react';
-import { Dashboard } from './components/Dashboard/Dashboard';
+import React, { FC } from 'react';
+import { Game } from './components/game/game';
 
 export const App: FC = () => {
-  return <Dashboard />;
+  return <Game />;
 };

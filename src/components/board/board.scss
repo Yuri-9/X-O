@@ -1,0 +1,14 @@
+.board {
+  display: flex;
+  margin: 20px 50px;
+  width: 120px;
+  flex-wrap: wrap;
+  &_row {
+    display: flex;
+  }
+}
+
+.status {
+  margin: 20px 50px;
+  font-size: 2rem;
+}
